@@ -34,10 +34,14 @@ const About = () => {
         <img
           src={babyPic}
           alt="Baby picture"
-          className="h-80 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
+          className="h-80 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full fixed-image"
+          style={{
+            objectPosition: '70% 0%'
+          }}
         />
       </div>
     </div>
   );
 };
+
 export default About;
