@@ -13,7 +13,7 @@ const App = () => {
         <section className="w-full min-h-screen">
           <Hero />
         </section>
-        <section className="w-full min-h-screen">
+        <section className="bg-[#0f1729] w-full min-h-screen">
           <About />
         </section>
         <section className="w-full min-h-screen">
