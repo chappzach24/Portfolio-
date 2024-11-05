@@ -31,7 +31,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#92AFD7] flex items-center justify-center py-16">
+    <div id="contact" className="min-h-screen w-full bg-[#92AFD7] flex items-center justify-center py-16">
       <div className="max-w-md w-full mx-auto p-8 bg-white/10 backdrop-blur-lg rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold mb-6 text-white">Get in Touch</h2>
         

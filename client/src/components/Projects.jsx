@@ -57,33 +57,36 @@ const Projects = () => {
       image: babyPic,
       languages: [
         { name: "React", icon: "react" },
+        { name: "Reacts", icon: "react" },
         { name: "Tailwind", icon: "css3-alt" },
         { name: "JavaScript", icon: "js" }
       ],
       githubLink: "https://github.com/your-username/portfolio"
     },
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with user authentication, product management, and secure payment processing.",
-      image: babyPic,
-      languages: [
-        { name: "Next.js", icon: "react" },
-        { name: "Node.js", icon: "node" },
-        { name: "MongoDB", icon: "database" }
-      ],
-      githubLink: "https://github.com/your-username/ecommerce"
-    },
-    {
-      title: "Task Management App",
-      description: "A collaborative task management tool with real-time updates, drag-and-drop functionality, and team features.",
+      title: "Personal Portfolio",
+      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and a clean design.",
       image: babyPic,
       languages: [
         { name: "React", icon: "react" },
-        { name: "Firebase", icon: "database" },
-        { name: "CSS", icon: "css3-alt" }
+        { name: "Reacts", icon: "react" },
+        { name: "Tailwind", icon: "css3-alt" },
+        { name: "JavaScript", icon: "js" }
       ],
-      githubLink: "https://github.com/your-username/task-manager"
+      githubLink: "https://github.com/your-username/portfolio"
     },
+    {
+      title: "Personal Portfolio",
+      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and a clean design.",
+      image: babyPic,
+      languages: [
+        { name: "React", icon: "react" },
+        { name: "Tailwind", icon: "css3-alt" },
+        { name: "JavaScript", icon: "js" }
+      ],
+      githubLink: "https://github.com/your-username/portfolio"
+    },
+   
   ];
 
   return (

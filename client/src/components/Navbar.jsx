@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <div className="flex gap-4">
         <a 
-          href="/resume.pdf" 
+          href="Zachary_Chapman-Resume.pdf"
           target="_blank"
           className="px-4 py-2 rounded-full text-[#92AFD7] bg-white hover:bg-white/90 transition-all duration-300 font-medium"
         >
